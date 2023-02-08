@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Row, Col, Button, FormControl } from 'react-bootstrap';
 import { v4 } from 'uuid';
-// add todo!!!
+// add todo
 const AddTodo = ({ todo, setTodo }) => {
     const [value, setValue] = useState('')
 
